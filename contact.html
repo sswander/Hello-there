@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hello, there</title>
+        <meta name="description" content="CS3240 Lab 1 Assignment">
+        <meta name="author" content="Leonardo Sjahputra">
+		<link href="css/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+    </head>
+	
+	<body>
+		<div class="row" id="header">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="row">
+					<a class="navBtn col-md-2" href="index.html">Home</a>
+					<a class="navBtn col-md-1" href="media.html">Gallery</a>
+					<div class="col-md-6 text-center header" id="title">What I'll say</div>
+					<a class="navBtn col-md-2" href="blog.html">Blog</a>
+					<a class="navBtn col-md-1" href="todo.html">ToDo</a>
+					<div class="col-md-12 line-separator"></div>
+					<div class="col-md-12 text-center title-description">Contact me</div>
+				</div><!--end row-->
+			</div><!--end nest-->
+		</div><!--end header-->
+		
+		<br><br><br>
+		
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="container well" style="width:100%;">
+					<form role="form">
+						<!-- Text field -->
+						<div class="form-group">
+							<label for="inputName">Name</label>
+							<input class="form-control" id="inputName" 
+							placeholder="Speak who you are. I better know you if you want me to reply you.">
+						</div>
+						<div class="form-group">
+							<label for="inputEmail">Email</label>
+							<input type="email" class="form-control" id="inputEmail" 
+							placeholder="Enter your electronic mail address, you civilised homo sapiens.">
+						</div>
+						<!-- Text Area -->
+						<div class="form-group">
+							<label>Message</label>
+							<textarea class="form-control" rows="3" id="inputMessage" 
+							placeholder='"Say what you wanna say, and let the words fall out." -Sara Bareilles'></textarea>
+						</div>
+						<!--checkbox-->
+						<div class="checkbox">
+							<label>
+							<input type="checkbox" value="1" id="checkbox">
+							I agree to buy Leo a box of donuts delivered right up to his room, 
+							within 15 minutes after pressing the "Send message" button. 
+							I agree that otherwise, Leo will reserve all rights to reply me 
+							and I might as well get ignored forever.
+							</label>
+						</div>
+						<!--Button-->
+						<!--Button -->
+						<button class="btn btn-primary" type="button" id="submitBtn" >Send message</button>
+					</form>
+				</div>
+			</div>
+        </div>
+		
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/contact.js"></script>
+	</body>
+</html>

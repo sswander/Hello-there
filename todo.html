@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hello, there</title>
+        <meta name="description" content="CS3240 Lab 1 Assignment">
+        <meta name="author" content="Leonardo Sjahputra">
+		<link href="css/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+    </head>
+	
+	<body>
+		<div class="row" id="header">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="row">
+					<a class="navBtn col-md-2" href="index.html">Home</a>
+					<a class="navBtn col-md-1" href="media.html">Gallery</a>
+					<div class="col-md-6 text-center header" id="title">What I'll do</div>
+					<a class="navBtn col-md-2" href="blog.html">Blog</a>
+					<a class="navBtn col-md-1" href="contact.html">Contact</a>
+					<div class="col-md-12 line-separator"></div>
+					<div class="col-md-12 text-center title-description">To Do List</div>
+				</div><!--end row-->
+			</div><!--end nest-->
+		</div><!--end header-->
+		
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<br><br><br>
+				<div class="panel">
+					<button type="button" class="btn btn-default listBtn" data-toggle="modal" data-target="#modal1">
+						<span class="glyphicon glyphicon-unchecked checklist" id="todo1" aria-hidden="true"></span> See aurora borealis in real life
+					</button>
+					<br>
+					<button type="button" class="btn btn-default listBtn" data-toggle="modal" data-target="#modal2">
+						<span class="glyphicon glyphicon-check checklist" id="todo2" aria-hidden="true"></span> Go for a solo trip to Tokyo
+					</button>
+					<br>
+					<button type="button" class="btn btn-default listBtn" data-toggle="modal" data-target="#modal3">
+						<span class="glyphicon glyphicon-unchecked checklist" id="todo3" aria-hidden="true"></span> Eat 15 bowls of ramen in one go
+					</button>
+					<br>
+					<button type="button" class="btn btn-default listBtn" data-toggle="modal" data-target="#modal4">
+						<span class="glyphicon glyphicon-check checklist" id="todo4" aria-hidden="true"></span> Meet Bill Gates
+					</button>
+					<br>
+					<button type="button" class="btn btn-default listBtn" data-toggle="modal" data-target="#modal5">
+						<span class="glyphicon glyphicon-unchecked checklist" id="todo5" aria-hidden="true"></span> Have dinner with Obama
+					</button>
+					<br>
+					<button type="button" class="btn btn-default listBtn" data-toggle="modal" data-target="#modal6">
+						<span class="glyphicon glyphicon-check checklist" id="todo6" aria-hidden="true"></span> Date Emma Stone
+					</button>
+					<br>
+					<button type="button" class="btn btn-default listBtn" data-toggle="modal" data-target="#modal7">
+						<span class="glyphicon glyphicon-unchecked checklist" id="todo6" aria-hidden="true"></span> Date Emma Stone again
+					</button>
+					<br>
+				</div>
+			</div>
+		</div>
+		
+		<div class="modal fade" id="modal1" tabindex="-1" role="dialog">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">See aurora borealis in real life</h4>
+				</div>
+				<div class="modal-body">
+					<p><strong>The plan: </strong>
+					Go to Norway and see it for real. Before turning 40.</p><br>
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>	
+			  </div>
+			</div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+		
+		<div class="modal fade" id="modal2" tabindex="-1" role="dialog">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">Go for a solo trip to Tokyo</h4>
+				</div>
+				<div class="modal-body">
+					<p><strong>When: </strong>
+					December 2014
+					<br><br>
+					Been there done that! All good fun, without nobody else in the way. See some snippets of the whole trip in the blog: <a href="blog.html">Here</a></p><br>
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>	
+			  </div>
+			</div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+		
+		<div class="modal fade" id="modal3" tabindex="-1" role="dialog">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">Eat 15 bowls of ramen in one go</h4>
+				</div>
+				<div class="modal-body">
+					<p><strong>The plan: </strong>
+					Ate 14 the last time and puked miso from the ears. Enlarge stomach and expand oesophagus for this coming attempt.</p><br>
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>	
+			  </div>
+			</div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+		
+		<div class="modal fade" id="modal4" tabindex="-1" role="dialog">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">Meet Bill Gates</h4>
+				</div>
+				<div class="modal-body">
+					<p><strong>When: </strong>
+					November 2014
+					<br><br>
+					Been there done that! Luckily he was in town that time. He's all good, bringing his stuff to another level again, that guy. 
+					Too bad he didn't let me say anything about it to anyone. It's alright, the next time I see him it'll probably go public already.</p><br>
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>	
+			  </div>
+			</div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+		
+		<div class="modal fade" id="modal5" tabindex="-1" role="dialog">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">Have dinner with Obama</h4>
+				</div>
+				<div class="modal-body">
+					<p><strong>The plan: </strong>
+					Write him a letter asking to be invited to the House. Whatsapp him if he doesn't reply the letter. Call his house if he gives the blue ticks.</p><br>
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>	
+			  </div>
+			</div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+		
+		<div class="modal fade" id="modal6" tabindex="-1" role="dialog">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">Date Emma Stone</h4>
+				</div>
+				<div class="modal-body">
+					<p><strong>When: </strong>
+					January 2015
+					<br><br>
+					Been there done that! She liked the wine. No frills, just one fun night and getting to know her better. Anybody could tell that she was into it. 
+					No links for something this personal. Maybe in future!<br><br></p>
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>	
+			  </div>
+			</div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+		
+		<div class="modal fade" id="modal7" tabindex="-1" role="dialog">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">Date Emma Stone again</h4>
+				</div>
+				<div class="modal-body">
+					<p><strong>The plan: </strong>
+					Go ask her out again. Sooner better. Maybe I will post something about it this time.</p><br>
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>	
+			  </div>
+			</div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+		
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/contact.js"></script>
+	</body>
+</html>
